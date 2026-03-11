@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "No Grounding",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "task.t1.no_grounding",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Input API Based",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "task.t2.input_api_based",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Input Vector Based",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "task.t2.Input_vector_based",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Input-Output Grounding",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "task.t3.in_out_grounding",
+            "console": "integratedTerminal"
+        }
+    ]
+}
