@@ -24,6 +24,13 @@
             "request": "launch",
             "module": "task.t2.Input_vector_based",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Input-Output Grounding",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "task.t3.in_out_grounding",
+            "console": "integratedTerminal"
         }
     ]
 }
